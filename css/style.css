@@ -21,11 +21,19 @@ header{
     flex-wrap: wrap;
     background-color: #FFFFFF;
 }
+header a{
+    max-height: 70px;
+}
+.logo{
+    display: inline-block;
+    width: 100%;
+    max-width: 138px;
+}
 .nav_links {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid red
+    /*border: 2px solid red*/
 }
 .nav_links li{
     margin-right: 33px;
@@ -42,18 +50,21 @@ header{
     color: #000000;
 }
 .nav_links li a:focus{
-    padding-bottom: 21px;
+    padding-bottom: 16px;
     border-bottom: 2px solid #756257
 }
 .nav_icon{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    border: 2px solid red;
-    max-width: 309px;
+    align-items: flex-start;
+    /*border: 2px solid red;*/
+    max-width: 308px;
     width: 100%;
     justify-content: center;
+}
+.nav_icon li:first-child{
+    align-self: center;
 }
 .nav_icon li{
     margin-right: 21px;
@@ -63,7 +74,9 @@ header{
     max-width: 160px;
     width: 100%;
 }
+.nav_icon img{
 
+}
 .want_here{
     font-family: PT Sans;
     font-style: normal;
@@ -84,6 +97,7 @@ section{
     max-width: 1200px;
     margin: auto;
     background-color: #FFFFFF;
+    margin-top: -5px;
     /*flex: 1 1 auto;*/
 }
 .welcome{
