@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #E5E5E5;
+    max-width: 1280px;
+    margin: auto;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+}
+.nav_links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red
+}
+.nav_links li{
+    margin-right: 33px;
+}
+.nav_links li:last-child{
+    margin: 0
+}
+.nav_links li a{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.nav_links li a:focus{
+    padding-bottom: 21px;
+    border-bottom: 2px solid #756257
+}
+.nav_icon{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid red;
+    max-width: 309px;
+    width: 100%;
+    justify-content: center;
+}
+.nav_icon li{
+    margin-right: 21px;
+}
+.nav_icon li:last-child{
+    margin: 0;
+    max-width: 160px;
+    width: 100%;
+}
+
+.want_here{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #756257;
+    border-radius: 4px;
+    padding: 9px 0 10px;
+    max-width: 160px;
+    width: 100%;
+    display: inline-block;
+}
+section{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #FFFFFF;
+    /*flex: 1 1 auto;*/
+}
+.welcome{
+    background-image:  url("../images/divider.svg"), url("../images/index-background.svg");
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-position: bottom;
+    padding-top: 51px;
+    padding-bottom: 82px;
+}
+
+.welcome img{
+    max-width: 458px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.content{
+    max-width: 1200px;
+    margin: auto;
+    /*background-image: url("../images/divider.svg");*/
+    /*background-repeat: no-repeat;*/
+    background-color: #FFFFFF;
+    padding-top: 63px;
+    padding-bottom: 79px;
+}
+.content h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 720px;
+    display: block;
+    margin: auto;
+    margin-bottom: 23px;
+}
+.content p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    max-width: 720px;
+    margin: auto;
+}
+.real_city, .bridge{
+    background-color: #83B3D3;
+    padding: 98px 0 77px;
+    max-width: 400px;
+    width: 100%;
+}
+.real_city h3, .bridge h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.real_city p, .bridge p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.real_city p:nth-child(2), .bridge p:nth-child(2){
+    margin-bottom: 26px;
+}
+.advantage img{
+    width: 100%;
+    max-width: 800px;
+}
+.advantage{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+.house{
+    background: rgba(131, 179, 211, 0.12);
+    padding: 89px 0 79px;
+    max-width: 400px;
+    width: 100%;
+}
+.eat{
+    padding: 91px 0 79px;
+    max-width: 400px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.souvenirs{
+    background: rgba(131, 179, 211, 0.12);
+    padding: 85px 0 79px;
+    max-width: 400px;
+    width: 100%;
+}
+.souvenirs img{
+    max-width: 64px;
+    margin: auto;
+    display: block;
+}
+.house img, .eat img{
+    max-width: 75px;
+    margin: auto;
+    display: block;
+}
+.house h3, .eat h3, .souvenirs h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 23px;
+}
+.house p, .eat p, .souvenirs p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+}
+.privilege_3, .privilege_5{
+    max-width: 400px;
+    width: 100%;
+    padding: 98px 0 77px;
+    background-color: rgba(131, 179, 211, 0.12);
+}
+.privilege_4{
+    max-width: 400px;
+    width: 100%;
+    padding: 98px 0 77px;
+    background-color: rgba(131, 179, 211, 0.2);
+}
+.privilege_3 h3, .privilege_4 h3, .privilege_5 h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.privilege_3 p, .privilege_4 p, .privilege_5 p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 26px;
+}
+.privilege_3 p:last-child, .privilege_4 p:last-child, .privilege_5 p:last-child{
+    margin: 0;
+}
+.interested{
+    max-width: 576px;
+    margin: auto;
+    padding: 91px 0;
+    /*background-color: #FFFFFF;*/
+}
+.interested h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.interested p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 73px;
+}
+.interested a{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #756257;
+    border-radius: 10px;
+    padding: 13px 0 17px;
+    display: inline-block;
+    width: 100%;
+}
+.mailing{
+    background-image: url("../images/background_mail.svg");
+}
+.mailing div{
+    max-width: 800px;
+    margin: auto;
+    padding: 94px 0 93px;
+}
+.mailing h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.mailing p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+.mailing input{
+    max-width: 600px;
+    width: 100%;
+    padding: 22px 0 22px 22px;
+    border: none;
+    background: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.6;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    background: #83B3D3;
+    border-radius: 0 10px 10px 0;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 40px 0 30px;
+}
+footer div a{
+    margin-right: 30px;
+}
+footer div a:last-child{
+    margin: 0;
+}
+.tel_number{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 720px;
+    width: 100%;
+}
