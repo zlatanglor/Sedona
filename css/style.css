@@ -88,6 +88,8 @@ section{
 }
 .welcome{
     background-image:  url("../images/divider.svg"), url("../images/index-background.svg");
+    /*display: inline-block;*/
+    /*width: 100%;*/
     background-repeat: no-repeat;
     background-size: auto, cover;
     background-position: bottom;
