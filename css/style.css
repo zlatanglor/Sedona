@@ -7,8 +7,8 @@
 }
 body{
     background-color: #E5E5E5;
-    max-width: 1280px;
-    margin: auto;
+    /*max-width: 1280px;*/
+    /*margin: auto;*/
     /*display: flex;*/
     /*flex-direction: column;*/
 }
@@ -186,6 +186,7 @@ section{
     width: 100%;
     max-width: 800px;
 }
+
 .advantage{
     max-width: 1200px;
     margin: auto;
@@ -421,3 +422,44 @@ footer div a:last-child{
     max-width: 720px;
     width: 100%;
 }
+/*@media (max-width: 1199px) {*/
+/*    .advantage .footer{*/
+/*        max-width: 900px;*/
+/*    }*/
+/*    .real_city, .bridge{*/
+/*        max-width: 300px;*/
+/*        width: 100%;*/
+/*    }*/
+/*    .advantage img{*/
+/*        width: 100%;*/
+/*        max-width: 600px;*/
+/*        object-fit: cover;*/
+/*    }*/
+/*    .house{*/
+/*        width: 100%;*/
+/*        max-width: 300px;*/
+/*    }*/
+/*    .eat{*/
+/*        width: 100%;*/
+/*        max-width: 300px;*/
+/*    }*/
+/*    .souvenirs{*/
+/*        width: 100%;*/
+/*        max-width: 300px;*/
+/*    }*/
+/*    .souvenirs img{*/
+/*        max-width: 48px;*/
+/*    }*/
+/*    .house img, .eat img{*/
+/*        max-width: 56px;*/
+/*    }*/
+/*    .privilege_3, .privilege_5{*/
+/*        max-width: 300px;*/
+/*        width: 100%;*/
+/*    }*/
+/*    .privilege_4{*/
+/*        max-width: 300px;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*}*/
