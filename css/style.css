@@ -429,11 +429,8 @@ footer div a:last-child{
 }
 
 @media (max-width: 767px) {
-    /*header, section, footer {*/
-    /*    max-width: none;*/
-    /*}*/
     .nav_icon {
-        max-width: 165px;
+        max-width: 170px;
     }
     .nav_icon li {
         display: none;
@@ -445,12 +442,119 @@ footer div a:last-child{
         margin: 0;
     }
     .nav_links li:first-child {
-        margin-right: 15px;
+        margin-right: 20px;
     }
     .nav_links li:last-child {
         display: none;
     }
 }
-@media (max-width: 580px) {
-    
+@media (max-width: 708px) {
+    header{
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .nav_icon, nav {display: none}
+    .burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin-right:  25px;
+    }
+    .burger:before, .burger:after{
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+    .burger:before{
+        top: 0;
+    }
+    .burger:after{
+        bottom: 0;
+    }
+    .burger span {
+        position: absolute;
+        background-color: black;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+    .advantage{
+        max-width: 708px;
+        flex-wrap: wrap;
+    }
+    .advantage div{
+        max-width: 708px;
+        width: 100%;
+        padding: 40px 0;
+    }
+    .advantage img{
+        max-width: 708px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .eat img, .house img, .souvenirs img{
+        display: none;
+    }
+    .mailing div{
+        padding: 20px 0;
+    }
+    .mailing p br{
+        display: none;
+    }
+    form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mailing input{
+        max-width: 300px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    button{
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+        padding: 15px 0;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .tel_number{
+        font-size: 30px;
+        line-height: 30px;
+        margin: 10px 0;
+    }
+    .content h2, .interested h2{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .content{
+        padding: 40px 0;
+    }
+    .content p, .advantage p, .interested p, .mailing p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .interested p{
+        margin-bottom: 25px;
+    }
+    .interested{
+        padding: 30px 0;
+    }
+    .advantage h3, .mailing h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
