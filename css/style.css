@@ -18,7 +18,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     background-color: #FFFFFF;
 }
 header a{
@@ -32,7 +32,7 @@ header a{
 .nav_links {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     /*border: 2px solid red*/
 }
 .nav_links li{
@@ -56,7 +56,7 @@ header a{
 .nav_icon{
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     align-items: flex-start;
     /*border: 2px solid red;*/
     max-width: 308px;
@@ -155,8 +155,8 @@ section{
 .real_city, .bridge{
     background-color: #83B3D3;
     padding: 98px 0 77px;
-    max-width: 400px;
-    width: 100%;
+    /*max-width: 400px;*/
+    width: 33.333%;
 }
 .real_city h3, .bridge h3{
     font-family: PT Sans;
@@ -183,12 +183,14 @@ section{
     margin-bottom: 26px;
 }
 .advantage img{
-    width: 100%;
-    max-width: 800px;
+    width: 66.666%;
+    /*max-width: 800px;*/
+    object-fit: cover;
 }
 
 .advantage{
-    max-width: 1200px;
+    /*max-width: 1200px;*/
+    max-width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -201,20 +203,20 @@ section{
 .house{
     background: rgba(131, 179, 211, 0.12);
     padding: 89px 0 79px;
-    max-width: 400px;
-    width: 100%;
+    /*max-width: 400px;*/
+    width: 33.333%;
 }
 .eat{
     padding: 91px 0 79px;
-    max-width: 400px;
-    width: 100%;
+    /*max-width: 400px;*/
+    width: 33.333%;
     background-color: #FFFFFF;
 }
 .souvenirs{
     background: rgba(131, 179, 211, 0.12);
     padding: 85px 0 79px;
-    max-width: 400px;
-    width: 100%;
+    /*max-width: 400px;*/
+    width: 33.333%;
 }
 .souvenirs img{
     max-width: 64px;
@@ -248,14 +250,14 @@ section{
     color: #333333;
 }
 .privilege_3, .privilege_5{
-    max-width: 400px;
-    width: 100%;
+    /*max-width: 400px;*/
+    width: 33.333%;
     padding: 98px 0 77px;
     background-color: rgba(131, 179, 211, 0.12);
 }
 .privilege_4{
-    max-width: 400px;
-    width: 100%;
+    /*max-width: 400px;*/
+    width: 33.333%;
     padding: 98px 0 77px;
     background-color: rgba(131, 179, 211, 0.2);
 }
@@ -420,46 +422,35 @@ footer div a:last-child{
     text-transform: uppercase;
     color: #000000;
     max-width: 720px;
-    width: 100%;
+    width: auto;
 }
-/*@media (max-width: 1199px) {*/
-/*    .advantage .footer{*/
-/*        max-width: 900px;*/
-/*    }*/
-/*    .real_city, .bridge{*/
-/*        max-width: 300px;*/
-/*        width: 100%;*/
-/*    }*/
-/*    .advantage img{*/
-/*        width: 100%;*/
-/*        max-width: 600px;*/
-/*        object-fit: cover;*/
-/*    }*/
-/*    .house{*/
-/*        width: 100%;*/
-/*        max-width: 300px;*/
-/*    }*/
-/*    .eat{*/
-/*        width: 100%;*/
-/*        max-width: 300px;*/
-/*    }*/
-/*    .souvenirs{*/
-/*        width: 100%;*/
-/*        max-width: 300px;*/
-/*    }*/
-/*    .souvenirs img{*/
-/*        max-width: 48px;*/
-/*    }*/
-/*    .house img, .eat img{*/
-/*        max-width: 56px;*/
-/*    }*/
-/*    .privilege_3, .privilege_5{*/
-/*        max-width: 300px;*/
-/*        width: 100%;*/
-/*    }*/
-/*    .privilege_4{*/
-/*        max-width: 300px;*/
-/*        width: 100%;*/
-/*    }*/
+.burger {
+    display: none;
+}
 
-/*}*/
+@media (max-width: 767px) {
+    /*header, section, footer {*/
+    /*    max-width: none;*/
+    /*}*/
+    .nav_icon {
+        max-width: 165px;
+    }
+    .nav_icon li {
+        display: none;
+    }
+    .nav_icon li:last-child {
+        display: flex;
+    }
+    .nav_links li {
+        margin: 0;
+    }
+    .nav_links li:first-child {
+        margin-right: 15px;
+    }
+    .nav_links li:last-child {
+        display: none;
+    }
+}
+@media (max-width: 580px) {
+    
+}
